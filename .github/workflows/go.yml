@@ -4,8 +4,6 @@
   uses: golangci/golangci-lint-action@v6.0.1
   with:
     # The version of golangci-lint to use.
-When `install-mode` is `goinstall` the value can be v1.2.3, `latest`, or the hash of a commit.
-
     version: # optional
     # The mode to install golangci-lint. It can be 'binary' or 'goinstall'.
     install-mode: # optional, default is binary
